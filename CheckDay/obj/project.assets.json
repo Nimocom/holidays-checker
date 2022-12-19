@@ -1,0 +1,103 @@
+{
+  "version": 3,
+  "targets": {
+    "net6.0-windows7.0": {
+      "isdayoff/1.6.0": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/isdayoff.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/isdayoff.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "isdayoff/1.6.0": {
+      "sha512": "ChWD3PNYno+S+FG+qR0pCx0cN7HtxTMjsK48MslEwFkt9hCpa1xi7fBr5ijjP0uEK1FvgmvWWb6ZVENLKpzajQ==",
+      "type": "package",
+      "path": "isdayoff/1.6.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "isdayoff.1.6.0.nupkg.sha512",
+        "isdayoff.nuspec",
+        "isdayoff.png",
+        "lib/netstandard2.0/isdayoff.dll",
+        "lib/netstandard2.0/isdayoff.xml"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net6.0-windows7.0": [
+      "isdayoff >= 1.6.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\NiMO\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\NiMO\\source\\repos\\CheckDay\\CheckDay\\CheckDay.csproj",
+      "projectName": "CheckDay",
+      "projectPath": "C:\\Users\\NiMO\\source\\repos\\CheckDay\\CheckDay\\CheckDay.csproj",
+      "packagesPath": "C:\\Users\\NiMO\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\NiMO\\source\\repos\\CheckDay\\CheckDay\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\NiMO\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net6.0-windows7.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net6.0-windows7.0": {
+          "targetAlias": "net6.0-windows",
+          "projectReferences": {}
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net6.0-windows7.0": {
+        "targetAlias": "net6.0-windows",
+        "dependencies": {
+          "isdayoff": {
+            "target": "Package",
+            "version": "[1.6.0, )"
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          },
+          "Microsoft.WindowsDesktop.App.WindowsForms": {
+            "privateAssets": "none"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.302\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

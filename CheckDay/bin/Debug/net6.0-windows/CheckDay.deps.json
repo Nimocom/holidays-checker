@@ -1,0 +1,41 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "CheckDay/1.0.0": {
+        "dependencies": {
+          "isdayoff": "1.6.0"
+        },
+        "runtime": {
+          "CheckDay.dll": {}
+        }
+      },
+      "isdayoff/1.6.0": {
+        "runtime": {
+          "lib/netstandard2.0/isdayoff.dll": {
+            "assemblyVersion": "1.6.0.0",
+            "fileVersion": "1.6.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "CheckDay/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "isdayoff/1.6.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-ChWD3PNYno+S+FG+qR0pCx0cN7HtxTMjsK48MslEwFkt9hCpa1xi7fBr5ijjP0uEK1FvgmvWWb6ZVENLKpzajQ==",
+      "path": "isdayoff/1.6.0",
+      "hashPath": "isdayoff.1.6.0.nupkg.sha512"
+    }
+  }
+}
